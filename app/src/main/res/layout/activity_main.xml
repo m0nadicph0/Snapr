@@ -12,6 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:text="@string/banner"
@@ -26,10 +27,13 @@
 
     <ImageView
         android:id="@+id/iv_camera_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginTop="40dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_foreground"
-        android:contentDescription="@string/camera_snap_description" />
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/camera_snap_description"
+        android:src="@drawable/ic_launcher_foreground" />
 
 </LinearLayout>
